@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  server:
+    build: 
+      context: .
+      dockerfile: dockerfiles/python.Dockerfile
+    volumes:
+      - ./:/app
+    ports:
+      - 8000:8000
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres
+    volumes:
+      - ./dump:/var/lib/postgresql/data
+    env_file:
+      - ./env/postgres.env
+  django-admin:
+    build: 
+      context: .
+      dockerfile: dockerfiles/django.Dockerfile
+    volumes:
+      - ./:/app
+  manage-py:
+    build: 
+      context: .
+      dockerfile: dockerfiles/manage.py.Dockerfile
+    volumes:
+      - ./:/app
+    depends_on:
+      - postgres
