@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'api',
 ]
 
@@ -77,7 +78,7 @@ WSGI_APPLICATION = 'ECOM.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'DJ2', 
+        'NAME': 'ECOM', 
         'USER': 'umesh', 
         'PASSWORD': 'Pswag007',
         'HOST': 'postgres', 
