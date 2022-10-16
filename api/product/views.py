@@ -103,3 +103,32 @@ class ChildCategoriesRetrieveAPIView(generics.RetrieveAPIView):
   lookup_field = 'CategoryId'
 
 child_categories_retrieve_view = ChildCategoriesRetrieveAPIView.as_view()
+
+
+# Attribute Views
+
+class AttributeListCreateAPIView(generics.ListCreateAPIView):
+  queryset = models.Attributes.objects.all()
+  serializer_class = serializers.AttributeListSerializer
+
+attribute_list_create_view = AttributeListCreateAPIView.as_view()
+
+class AttributeRetrieveUpdateDestoryAPIView(generics.RetrieveUpdateDestroyAPIView):
+  queryset = models.Attributes.objects.all()
+  serializer_class = serializers.AttributeWithValuesAndCategorySerializer
+  lookup_field = 'AttributeId'
+
+attribute_retrieve_update_destory_view = AttributeRetrieveUpdateDestoryAPIView.as_view()
+
+class AttributeValueListAPIView(generics.ListAPIView):
+  queryset = models.Attributes.objects.all()
+  serializer_class = serializers.AttributeWithValuesSerializer
+
+attribute_list_view = AttributeValueListAPIView.as_view()
+
+class AttributeValueRetrieveAPIView(generics.RetrieveAPIView):
+  queryset = models.Attributes.objects.all()
+  serializer_class = serializers.AttributeWithValuesSerializer
+  lookup_field = 'AttributeId'
+
+attribute_retrieve_view = AttributeValueRetrieveAPIView.as_view()

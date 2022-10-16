@@ -26,6 +26,16 @@ class CategorySerializer(serializers.ModelSerializer):
     model = models.Category
     fields = ['CategoryId', 'CategoryName']
 
+class AttributeSerializer(serializers.ModelSerializer):
+  class Meta:
+    model = models.Attributes
+    fields = '__all__'
+
+class AttributeValueSerializer(serializers.ModelSerializer):
+  class Meta:
+    model = models.AttributeValue
+    fields = ['AttributeValueId', 'AttributeId', 'AttributeValue']
+    read_only_fields = ['AttributeValueId', 'AttributeId']
 
 # Detailed/Realated Serializers
 
@@ -69,8 +79,24 @@ class ChildCategoriesSerializer(serializers.ModelSerializer):
     model = models.Category
     fields = '__all__'
 
+class AttributeListSerializer(WritableNestedModelSerializer):
+  attribute_values = AttributeValueSerializer(many=True, write_only=True)
+  class Meta:
+    model = models.Attributes
+    fields = '__all__'
 
+class AttributeWithValuesSerializer(serializers.ModelSerializer):
+  attribute_values = AttributeValueSerializer(many=True)
+  class Meta:
+    model = models.Attributes
+    fields = '__all__'
 
+class AttributeWithValuesAndCategorySerializer(WritableNestedModelSerializer):
+  category = CategorySerializer(source='CategoryId', read_only=True)
+  attribute_values = AttributeValueSerializer(many=True)
+  class Meta:
+    model = models.Attributes
+    fields = '__all__'
   
 
 

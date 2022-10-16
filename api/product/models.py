@@ -37,7 +37,7 @@ class BrandMedia(models.Model):
 
 class Product(models.Model):
   ProductId = models.BigAutoField(primary_key=True)
-  ProductName = models.CharField(max_length=256, unique=True)
+  ProductName = models.CharField(max_length=1000, unique=True)
   ProductDescription = models.TextField()
   Price = models.DecimalField(max_digits=10, decimal_places=2)
   ProductRating = models.DecimalField(decimal_places=1, max_digits=2)
@@ -98,8 +98,8 @@ class Attributes(models.Model):
     return self.AttributeName
 
 class AttributeValue(models.Model):
-  AttributeValueId = models.BigIntegerField(primary_key=True)
-  AttributeId = models.ForeignKey(Attributes, on_delete=models.CASCADE)
+  AttributeValueId = models.BigAutoField(primary_key=True)
+  AttributeId = models.ForeignKey(Attributes, on_delete=models.CASCADE, related_name='attribute_values')
   AttributeValue = models.CharField(max_length=256)
   created_at = models.DateTimeField(auto_now_add=True)
   updated_at = models.DateTimeField(auto_now=True)

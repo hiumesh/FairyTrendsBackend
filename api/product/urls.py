@@ -18,5 +18,10 @@ urlpatterns = [
   path('category/', views.category_list_create_view),
   path('category/<int:CategoryId>/', views.category_retrieve_update_view),
   path('category_child/', views.child_categories_list_view),
-  path('category_child/<int:CategoryId>/', views.child_categories_retrieve_view)
+  path('category_child/<int:CategoryId>/', views.child_categories_retrieve_view),
+
+  path('attribute/', views.attribute_list_create_view),
+  path('attribute/<int:AttributeId>/', views.attribute_retrieve_update_destory_view),
+  path('attribute_values/', views.attribute_list_view),
+  path('attribute_values/<int:AttributeId>/', views.attribute_retrieve_view),
 ]
