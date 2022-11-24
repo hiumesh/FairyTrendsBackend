@@ -1,19 +1,29 @@
 # Department
-  department -> list all the departments 
-  department/<id>/ -> list the detailed view of department
-  department_brand -> list all the departments along with brands belonging to them
-  department_brand/<id>/ -> list the detailed view of department along with brands belonging to it
-  department_category -> list all the department along with categories belonging to them
-  department_category/<id>/ ->  list the detailed view of department along categories belonging to it
+  department -> list all and create new the departments 
+  department/<name>/ -> view/update/delete the department
 
 # Brands
-  brand -> list all the brands
+  brand -> list all and create new the brands
   brand/<id> -> list the detailed view of brand
   brand_department -> list all the brands along with departments that they belongs to
   brand_department/<id> -> list the detailed view of department along with departments that it belongs to
 
 # Attribute
-  attribute -> list all the attribute
-  attribute/<id> -> list the detailed view of attribute
-  attribute_values -> list all the attribute along with the all possible values for them
-  attribute_values/<id> -> list the detailed view of attribute along with its possible values
+  attribute -> list all and create new the attribute
+  attribute/<id> -> view/update/delete the attribute
+
+# Tag
+  tag -> list all and create new the tags
+  tag/<id> -> view/update/delete the tag
+
+# Category
+  category -> list all and create new the categories
+  category/<id> -> view/update/delete the category
+
+# Category Pair
+  categorypair -> list all and create new the category pairs
+  categorypair/<id> -> view/update/delete the category pair
+
+# Collection
+  collection -> list all and create new the collection
+  collection/<id> -> view/update/delete the collection

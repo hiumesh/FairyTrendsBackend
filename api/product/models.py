@@ -1,19 +1,76 @@
 from django.db import models
 
-class Department(models.Model):
-  DepartmentId = models.BigAutoField(primary_key=True)
-  DepartmentName = models.CharField(max_length=256, unique=True)
-  DepartmentDescription = models.TextField()
+class Tag(models.Model):
+  Id = models.BigAutoField(primary_key=True)
+  Name = models.CharField(max_length=256, null=False, unique=True)
+  
+  def __str__(self):
+    return self.Name
+
+class Attributes(models.Model):
+  Id = models.BigAutoField(primary_key=True)
+  Name = models.CharField(max_length=256, null=False)
   created_at = models.DateTimeField(auto_now_add=True)
   updated_at = models.DateTimeField(auto_now=True)
 
   def __str__(self):
-    return self.DepartmentName
+    return self.Name
+
+
+class Category(models.Model):
+  Id = models.BigAutoField(primary_key=True)
+  ParentId = models.ForeignKey('self', null=True, on_delete=models.CASCADE, related_name='direct_children')
+  ParentTree = models.CharField(max_length=700)
+  Name = models.CharField(max_length=256, unique=True)
+  Level = models.SmallIntegerField(default=0)
+  Attributes = models.ManyToManyField(Attributes, related_name='attribute_categories')
+  Tags = models.ManyToManyField(Tag, related_name='tag_categories', blank=True)
+  created_at = models.DateTimeField(auto_now_add=True)
+  updated_at = models.DateTimeField(auto_now=True)
+
+  def __str__(self):
+    return self.Name
+
+class CategoryPair(models.Model):
+  Id = models.BigAutoField(primary_key=True)
+  Name = models.CharField(max_length=700, unique=True)
+  Alias = models.CharField(max_length=256, null=True, default=None)
+  Categories = models.ManyToManyField(Category, related_name='category_in_pairs')
+  Tags = models.ManyToManyField(Tag, related_name='tag_in_pairs', blank=True)
+
+  def __str__(self) -> str:
+    return self.Name
+
+class Collection(models.Model):
+  Id = models.BigAutoField(primary_key=True)
+  Name = models.CharField(max_length=256, unique=True)
+  Alias = models.CharField(max_length=256, null=True, default=None)
+  Categories = models.ManyToManyField(Category, through='CollectionCategories', related_name='collection_categories')
+  CategoryPairs = models.ManyToManyField(CategoryPair, related_name='category_pairs_collection', blank=True)
+  
+  def __str__(self):
+    return self.Name
+
+class CollectionCategories(models.Model):
+  CollectionCategoryId = models.BigAutoField(primary_key=True)
+  CollectionId = models.ForeignKey(Collection, on_delete=models.CASCADE, related_name='collection_categories')
+  CategoryId = models.ForeignKey(Category, on_delete=models.CASCADE)
+  Alias = models.CharField(max_length=256, null=True, default=None)
+  Tags = models.ManyToManyField(Tag, related_name='category_collection_category_tag', blank=True)
+
+class Department(models.Model):
+  Id = models.BigAutoField(primary_key=True)
+  Name = models.CharField(max_length=256, unique=True)
+  Collections = models.ManyToManyField(Collection, related_name='department_category_collections')
+  created_at = models.DateTimeField(auto_now_add=True)
+  updated_at = models.DateTimeField(auto_now=True)
+
+  def __str__(self):
+    return self.Name
 
 class Brand(models.Model):
   BrandId = models.BigAutoField(primary_key=True)
   BrandName = models.CharField(max_length=256, unique=True)
-  BrandDepartment = models.ManyToManyField(Department,  related_name='department_brands')
   BrandDescription = models.TextField()
   created_at = models.DateTimeField(auto_now_add=True)
   updated_at = models.DateTimeField(auto_now=True)
@@ -52,7 +109,7 @@ class Product(models.Model):
 
 class ProductDetail(models.Model):
   ProductDetailId = models.BigAutoField(primary_key=True)
-  ProductId = models.ForeignKey(Product, on_delete=models.CASCADE)
+  ProductId = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='product_detail')
   AttributeName = models.CharField(max_length=256, null=True)
   AttributeLevel = models.SmallIntegerField()
   AttributeValue = models.TextField()
@@ -65,7 +122,7 @@ class ProductMedia(models.Model):
     ('VD', 'Video'),
   )
   MediaId = models.BigAutoField(primary_key=True)
-  ProductId = models.ForeignKey(Product, on_delete=models.CASCADE)
+  ProductId = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='product_media')
   MediaLink = models.URLField()
   MediaType = models.CharField(max_length=2, choices=MEDIA_TYPES)
   created_at = models.DateTimeField(auto_now_add=True)
@@ -74,49 +131,14 @@ class ProductMedia(models.Model):
   def __str__(self):
     return self.MediaLink
 
-
-class Category(models.Model):
-  CategoryId = models.BigAutoField(primary_key=True)
-  ParentId = models.ForeignKey('self', null=True, on_delete=models.CASCADE, related_name='child_category')
-  CategoryName = models.CharField(max_length=256)
-  DepartmentId = models.ForeignKey(Department, on_delete=models.CASCADE, related_name='department_category')
-  created_at = models.DateTimeField(auto_now_add=True)
-  updated_at = models.DateTimeField(auto_now=True)
-
-  def __str__(self):
-    return self.CategoryName
-
-class Attributes(models.Model):
-  AttributeId = models.BigAutoField(primary_key=True)
-  AttributeName = models.CharField(max_length=256, null=False)
-  Description = models.CharField(max_length=700)
-  CategoryId = models.ForeignKey(Category, on_delete=models.CASCADE)
-  created_at = models.DateTimeField(auto_now_add=True)
-  updated_at = models.DateTimeField(auto_now=True)
-
-  def __str__(self):
-    return self.AttributeName
-
-class AttributeValue(models.Model):
-  AttributeValueId = models.BigAutoField(primary_key=True)
-  AttributeId = models.ForeignKey(Attributes, on_delete=models.CASCADE, related_name='attribute_values')
-  AttributeValue = models.CharField(max_length=256)
-  created_at = models.DateTimeField(auto_now_add=True)
-  updated_at = models.DateTimeField(auto_now=True)
-
-  def __str__(self):
-    return f"{self.AttributeId}: {self.AttributeValue}"
-
 class ProductCategory(models.Model):
   ProductCategoryId = models.BigAutoField(primary_key=True)
-  ProductId = models.ForeignKey(Product, on_delete=models.CASCADE)
+  ProductId = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='product_category')
   CategoryId = models.ForeignKey(Category, on_delete=models.CASCADE)
-  created_at = models.DateTimeField(auto_now_add=True)
-  updated_at = models.DateTimeField(auto_now=True)
-
+  Tags = models.ManyToManyField(Tag, related_name='product_category_tag')
 
 class ProductCategoryAttributeValue(models.Model):
-  ProductCategoryId = models.ForeignKey(ProductCategory, on_delete=models.CASCADE)
-  AttributeValueId = models.ForeignKey(AttributeValue, on_delete=models.CASCADE)
-  created_at = models.DateTimeField(auto_now_add=True)
-  updated_at = models.DateTimeField(auto_now=True)
+  ProductCategoryAttributeValueId = models.BigAutoField(primary_key=True)
+  ProductCategoryId = models.ForeignKey(ProductCategory, on_delete=models.CASCADE, related_name='product_category_attributes')
+  AttributeId = models.ForeignKey(Attributes, on_delete=models.CASCADE)
+  AttributeValue = models.TextField()

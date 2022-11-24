@@ -1,27 +1,20 @@
-from django.urls import path
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
 
 from api.product import views
+from api.product import viewset
+
+router = DefaultRouter()
+
+router.register('product', viewset.ProductViewSet, basename='product')
+router.register('attribute', viewset.AttributesViewSet)
+router.register('department', viewset.DepartmentViewSet)
+router.register('brand', viewset.BrandViewSet)
+router.register('category', viewset.CategoryViewSet)
+router.register('collection', viewset.Collection)
+router.register('tag', viewset.TagViewSet)
+router.register('categorypair', viewset.CategoryPairViewSet)
 
 urlpatterns = [
-  path('department/', views.department_list_create_view),
-  path('department/<int:DepartmentId>/', views.department_retrieve_update_destory_view),
-  path('department_brand/', views.department_brand_list_view),
-  path('department_brand/<int:DepartmentId>/', views.department_brand_retrieve_view),
-  path('department_category/', views.department_category_list_view),
-  path('department_category/<int:DepartmentId>/', views.department_category_retrieve_view),
-
-  path('brand/', views.brand_list_create_view),
-  path('brand/<int:BrandId>/', views.brand_retrieve_update_destory_view),
-  path('brand_department/', views.brand_department_list_view),
-  path('brand_department/<int:BrandId>/', views.brand_department_retrieve_view),
-
-  path('category/', views.category_list_create_view),
-  path('category/<int:CategoryId>/', views.category_retrieve_update_view),
-  path('category_child/', views.child_categories_list_view),
-  path('category_child/<int:CategoryId>/', views.child_categories_retrieve_view),
-
-  path('attribute/', views.attribute_list_create_view),
-  path('attribute/<int:AttributeId>/', views.attribute_retrieve_update_destory_view),
-  path('attribute_values/', views.attribute_list_view),
-  path('attribute_values/<int:AttributeId>/', views.attribute_retrieve_view),
+  path('', include(router.urls)),
 ]
