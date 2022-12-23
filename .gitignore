@@ -1,0 +1,5 @@
+env/
+django-env/
+dump/
+__pycache__
+api/migrations

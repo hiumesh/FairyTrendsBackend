@@ -1,0 +1,2365 @@
+{
+  "tags": [
+    {
+      "Name": "Men"
+    },
+    {
+      "Name": "Women"
+    },
+    {
+      "Name": "Boy"
+    },
+    {
+      "Name": "Girl"
+    },
+    {
+      "Name": "Sports"
+    },
+    {
+      "Name": "Casual"
+    },
+    {
+      "Name": "Formal"
+    }
+  ],
+  "categories": [
+    {
+      "Name": "Clothing",
+      "ParentId": null,
+      "Attributes": [1],
+      "Tags": ["Men", "Women", "Boy", "Girl", "Sports", "Casual", "Formal"],
+      "children": [
+        {
+          "Name": "Blazers",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },   
+        {
+          "Name": "Sherwanis",
+          "Attributes": [1],
+          "Tags": ["Men", "Boy"]
+        },
+        {
+          "Name": "Bra",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Baby Dolls",
+          "Attributes": [1],
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Bodysuit",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Briefs",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Boxers",
+          "Attributes": [1],
+          "Tags": ["Men", "Women"]
+        },
+        {
+          "Name": "Burqas",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Apparel Gift Set",
+          "Attributes": [1],
+          "Tags": ["Boy", "Girl"]
+        },
+        {
+          "Name": "Co-Ords",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Capris",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Camisoles",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Coats",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Churidar",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Clothing Set",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Clothing Fabric",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Corset",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Dresses",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Dhotis",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Dupatta",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Dungarees",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Dress Materials",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Ethnic Dresses",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Harem Pants",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Innerwear Vests",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Jeans",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Jackets",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Jumpsuit",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Jeggings",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Jodhpuri Pants",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Kurta Set",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Kurtas",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Kurtis",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Leggings",
+          "Attributes": [1],
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Lounge Pants",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Lehenga Choli",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Lingerie Set",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Lounge Tshirts",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Lounge Shorts",
+          "Attributes": [1],
+          "Tags": ["Men", "Boy"]
+        },
+        {
+          "Name": "Lingerie accessories",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Nehru Jackets",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Night Suits",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Nightdress",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Palazzos",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Pyjamas",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Patiala",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Padded Brief",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Patiala and Dupatta",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Robe",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Rain Suit",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Rompers",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Rain Trousers",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Rain Jacket",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Shapewear",
+          "Attributes": [1],
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Sleepsuit",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Sarees",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Sweatshirts",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports"]
+        },
+        {
+          "Name": "Sweaters",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Shirts",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports", "Casual", "Formal"]
+        },
+        {
+          "Name": "Skirts",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Saree Blouse",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Shrug",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Shawl",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Socks",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Formal", "Sports", "Casual"]
+        },
+        {
+          "Name": "Swim Bottoms",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Swim Tops",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Swimwear",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Swimwearset Cover ups",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Swimwearset Cover up Top",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Swimwearset Cover up Set",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Swimwearset Cover up Bottom",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Salwar",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Stockings",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Slips",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Salwar and Dupatta",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Suits",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Tops",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Tshirst",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Trunk",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Trousers",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports", "Casual", "Formal"]
+        },
+        {
+          "Name": "Tights",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports"]
+        },
+        {
+          "Name": "Track Pants",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports"]
+        },
+        {
+          "Name": "Shorts",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports"]
+        },
+        {
+          "Name": "Tunics",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Tracksuits",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports"]
+        },
+        {
+          "Name": "Thermal Tops",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Thermal Bottoms",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Thermal Set",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Waistcoat",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        }
+      ]
+    },
+    {
+      "Name": "Personal Care",
+      "ParentId": null,
+      "Attributes": [1],
+      "Tags": ["Men", "Women", "Boy", "Girl"],
+      "children": [
+        {
+          "Name": "Body Wash and Scrub",
+          "Attributes": [1],
+          "Tags": ["Men", "Women"]
+        },
+        {
+          "Name": "Body Oil",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Beauty Accessory",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Body Lotion",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Baby Care Products",
+          "Attributes": [1],
+          "Tags": ["Boy", "Girl"]
+        },
+        {
+          "Name": "Beard & Moustache Care",
+          "Attributes": [1],
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Beauty Gift Set",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Bath and Body Gift Set",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Body Wax and Essentials",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "BB and CC Cream",
+          "Attributes": [1],
+          "Tags": ["Men", "Women"]
+        },
+        {
+          "Name": "Bath Soak Salt and Oil",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Bath Accessories",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Bleach",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Concealer",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },{
+          "Name": "Compact",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Condoms",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Deodorant",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Eyeshadow",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Eyebrow Enhancer",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Eye Cream",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Epilator",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Face Wash and Cleanser",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Face Serum and Gel",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Face Moisturisers",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Foundation and Primer",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Face Scrub and Exfoliator",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Facial Kit",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "False Eyelashes",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Feminine Hygiene",
+          "Attributes": [1],
+          "Tags": ["Women", "Girl"]
+        },
+        {
+          "Name": "Fragrance Gift Set",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hair Oil",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hrghlighter and Blush",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hair Care Kit",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hair Colour",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hair Cream and Mask",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hair Brush and Comb",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hand Wash and Sanitizer",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hair Serum",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hair Appliance",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hand and Feet Cream",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hair Gel and Spray",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Insect Repellent",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Kajal and Eyeliner",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Lipstick",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Lip Care",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Lip Gloss",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Lip Liner",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Lubricants",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Lip Plumper",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Mask and Peel",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Makeup Brushes",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Makeup Kit",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Makeup Remover",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Mascara",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Makeup Gift Set",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Mens Grooming Kit",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Massager",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Nail Polish",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Nail Essentials",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Perfume and Body Mist",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Personal Care Hamper",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Pregnancy and Fertility Kits",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Shampoo and Conditioner",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Skin Care Gift Set",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Sunscreen",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Sindoor",
+          "Attributes": [1],
+          "Tags": ["Men", "Women"]
+        },
+        {
+          "Name": "Shaving Brush & Razor",
+          "Attributes": [1],
+          "Tags": ["Men", "Women"]
+        },
+        {
+          "Name": "Shaving Essentials",
+          "Attributes": [1],
+          "Tags": ["Men", "Women"]
+        },
+        {
+          "Name": "Toner",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Trimmer",
+          "Attributes": [1],
+          "Tags": ["Men", "Women"]
+        },
+        {
+          "Name": "Tissues and Wipes",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Toiletry Kit",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        }
+      ]
+    },
+    {
+      "Name": "Footware",
+      "ParentId": null,
+      "Attributes": [1],
+      "Tags": ["Men", "Women", "Boy", "Girl", "Sports", "Casual", "Formal"],
+      "children": [
+        {
+          "Name": "Boots",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Booties",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Shoes",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports", "Casual", "Formal"]
+        },
+        {
+          "Name": "Flats",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Flip Flops",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Heels",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Sandals",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports"]
+        }
+      ]
+    },
+    {
+      "Name": "Sporting Goods",
+      "ParentId": null,
+      "Attributes": [1],
+      "Tags": ["Men", "Women", "Boy", "Girl", "Sports"],
+      "children": [
+        {
+          "Name": "Badminton Racquets",
+          "Attributes": [1],
+          "Tags": ["Sports"]
+        },
+        {
+          "Name": "Basketballs",
+          "Attributes": [1],
+          "Tags": ["Sports"]
+        },
+        {
+          "Name": "Badminton Shuttlecocks",
+          "Attributes": [1],
+          "Tags": ["Sports"]
+        },
+        {
+          "Name": "Cricket Bats",
+          "Attributes": [1],
+          "Tags": ["Sports"]
+        },
+        {
+          "Name": "Cricket Balls",
+          "Attributes": [1],
+          "Tags": ["Sports"]
+        },
+        {
+          "Name": "Swimwear Accessories",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports"]
+        },
+        {
+          "Name": "Sports Equipment",
+          "Attributes": [1],
+          "Tags": ["Sports"]
+        },
+        {
+          "Name": "Tennis Racquets",
+          "Attributes": [1],
+          "Tags": ["Sports"]
+        },
+        {
+          "Name": "Table Tennis Kits",
+          "Attributes": [1],
+          "Tags": ["Sports"]
+        },
+        {
+          "Name": "Workout Accessories",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports"]
+        }
+      ]
+    },
+    {
+      "Name": "Accessories",
+      "ParentId": null,
+      "Attributes": [1],
+      "Tags": ["Men", "Women", "Boy", "Girl", "Sports"],
+      "children": [
+        {
+          "Name": "Accessory Gift Set",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Anklet",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Belts",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Bracelet",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Backpacks",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Bangle",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Brooch",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Bibs",
+          "Attributes": [1],
+          "Tags": ["Boy", "Girl"]
+        },
+        {
+          "Name": "Baby Utensils",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Bed Sts",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Gear & Nursery",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Slippers",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Pillow",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Nail Grooming",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Photoshoot Props",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Oral Care",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Hair Brush",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Bottle Cleaners",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Bath Tub",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Box",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Sleeping Bag",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Bath Sponges",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Breast Pumpus",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Carriers",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Bathers",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Baby Shower Caps",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Clutches",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Girl"]
+        },
+        {
+          "Name": "Caps",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl", "Sports"]
+        },
+        {
+          "Name": "Cufflinks",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Charms",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Cradles",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Carry Cot",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Collectibles",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Car Seats",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Duffel Bag",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Diaper Bags",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Earrings",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Earbuds Case",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Frames",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Feeding Bottles",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Feeding Essentials",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Face Shield",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Food Feeders",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Fitness Bands",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Gloves",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Handbags",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hair Accessory",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Head Jewellery",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Headband",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Headphones",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Hat",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Handkerchief",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "High Chairs",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Helmets",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Jewellery Set",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Jibbitz",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Key chain",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Kaleeras",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Laptop Bag",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Mobile Accessories",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Mangalsutra",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Messenger Bag",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Mufflers",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Mask Chains",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Mittens",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Necklace and Chains",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Nosepin",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Outdoor Masks",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Pendant",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Pocket Squares",
+          "Attributes": [1],
+          "Tags": ["Men", "Women"]
+        },
+        {
+          "Name": "Pens",
+          "Attributes": [1],
+          "Tags": ["Men", "Women"]
+        },
+        {
+          "Name": "Pagri and Safa",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Pacifiers",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Protective Bodysuits",
+          "Attributes": [1],
+          "Tags": ["Men", "Women"]
+        },
+        {
+          "Name": "Poly Bag",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Ring",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Rakhi",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Rucksacks",
+          "Attributes": [1],
+          "Tags": ["Men", "Women"]
+        },
+        {
+          "Name": "Rockers",
+          "Attributes": [1],
+          "Tags": ["Boy", "Girl"]
+        },
+        {
+          "Name": "Sunglasses",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Stoles",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Scarves",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Stationery",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Smart Watches",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Saree Accessories",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Sports Accessories",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Speakers",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Suspenders",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Sleeping Bag",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Shoe Accessories",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "School Essentials",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Silver Coins",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Shoe Care",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Sunglasses Case",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Strollers",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Swings",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Sterilizers",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Sanitizer Sprayer",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Ties",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Trolley Bag",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Travel Accessory",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Toe Rings",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Ties and Cufflinks",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Teether",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Tent",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Tablet Sleeve",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Umbrellas",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Watches",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Wallets",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Watch Gift Set",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Waist Pouch",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Watch Straps",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Walkers",
+          "Attributes": [1]
+        },
+        {
+          "Name": "Watch Organiser",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Wristbands",
+          "Attributes": [1],
+          "Tags": ["Men", "Women", "Boy", "Girl"]
+        },
+        {
+          "Name": "Warmers",
+          "Attributes": [1]
+        }
+      ]
+    }
+  ],
+  "category_pairs": [
+    {
+      "Name": "Blazers & Coats For Men",
+      "Alias": "Blazers & Coats",
+      "Categories": ["Blazers", "Coats"],
+      "Tags": ["Men"]
+    },
+    {
+      "Name": "Kurtas & Kurta Sets For Men",
+      "Alias": "Kurtas & Kurta Sets",
+      "Categories": ["Kurtas", "Kurta Set", "Dhotis"],
+      "Tags": ["Men"]
+    },
+    {
+      "Name": "Track Pants & Shorts For Men",
+      "Alias": "Track Pants & Shorts",
+      "Categories": ["Track Pants", "Shorts"],
+      "Tags": ["Men"]
+    },
+    {
+      "Name": "Briefs & Trunks For Men",
+      "Alias": "Briefs & Trunks",
+      "Categories": ["Briefs", "Trunk"],
+      "Tags": ["Men"]
+    },
+    {
+      "Name": "Sleepwear & Loungewear For Men",
+      "Alias": "Sleepwear & Loungewear",
+      "Categories": ["Lounge Shorts", "Lounge Tshirts", "Lounge Pants", "Night Suits"],
+      "Tags": ["Men"]
+    }, 
+    {
+      "Name": "Track Pants & Shorts For Men",
+      "Alias": "Track Pants & Sweatshirts",
+      "Categories": ["Track Pants", "Shorts"],
+      "Tags": ["Men", "Sports"]
+    },
+    {
+      "Name": "Sports Accessories For Men",
+      "Alias": "Sports Accessories",
+      "Categories": ["Accessory Gift Set", "Backpacks", "Caps", "Cufflinks", "Duffel Bag", "Fitness Bands", "Frames", "Gloves", "Headband", "Headphones", "Hat", "Hair Accessory", "Mufflers", "Mobile Accessories", "Outdoor Masks", "Pocket Squares", "Rucksacks", "Socks", "Sports Accessories", "Smart Watches", "Sunglasses", "Shoe Accessories", "Sleeping Bag", "Scarves", "Travel Accessory", "Trolley Bag", "Watches", "Wristbands", "Waist Pouch", "Watch Straps", "Wallets"],
+      "Tags": ["Men", "Sports"]
+    },
+    {
+      "Name": "Swimwear For Men",
+      "Alias": "Swimwear",
+      "Categories": ["Swim Bottoms", "Swimwear Accessories", "Swimwear"],
+      "Tags": ["Men", "Sports"]
+    },
+    {
+      "Name": "Smart Wearables For Men",
+      "Alias": "Smart Wearables",
+      "Categories": ["Smart Watches", "Fitness Bands"],
+      "Tags": ["Men"]
+    },
+    {
+      "Name": "Jackets & Sweatshirts For Men",
+      "Alias": "Jackets & Sweatshirts",
+      "Categories": ["Jackets", "Sweatshirts"],
+      "Tags": ["Men", "Sports"]
+    },
+    {
+      "Name": "Perfumes & Body Mists For Men",
+      "Alias": "Perfumes & Body Mists",
+      "Categories": ["Perfume and Body Mist", "Fragrance Gift Set"],
+      "Tags": ["Men"]
+    },
+    {
+      "Name": "Ties, Cufflinks & Pocket Squares For Men",
+      "Alias": "Ties, Cufflinks & Pocket Squares",
+      "Categories": ["Ties", "Pocket Squares", "Cufflinks", "Ties and Cufflinks", "Suspenders"],
+      "Tags": ["Men"]
+    },
+    {
+      "Name": "Caps & Hats For Men",
+      "Alias": "Caps & Hats",
+      "Categories": ["Caps", "Hat"],
+      "Tags": ["Men"]
+    },
+    {
+      "Name": "Mufflers, Scarves & Gloves For Men",
+      "Alias": "Mufflers, Scarves & Gloves",
+      "Categories": ["Mufflers", "Headband", "Gloves", "Scarves", "Stoles"],
+      "Tags": ["Men"]
+    },
+    {
+      "Name": "Rings & Wristwear For Men",
+      "Alias": "Rings & Wristwear",
+      "Categories": ["Bracelet", "Brooch", "Earrings", "Head Jewellery", "Mangalsutra", "Mask Chains", "Necklace and Chains", "Pendant", "Rakhi", "Ring", "Silver Coins"],
+      "Tags": ["Men"]
+    },
+    {
+      "Name": "Kurtas & Suits For Women",
+      "Alias": "Kurtas & Suits",
+      "Categories": ["Kurtas", "Suits", "Kurta Set"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Kurtis, Tunics & Tops For Women",
+      "Alias": "Kurtis, Tunics & Tops",
+      "Categories": ["Kurtis", "Tunics", "Tops"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Leggings, Salwars & Churidars For Women",
+      "Alias": "Leggings, Salwars & Churidars",
+      "Categories": ["Leggings", "Salwar", "Churidar"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Skirts & Palazzos For Women",
+      "Alias": "Skirts & Palazzos",
+      "Categories": ["Skirts", "Palazzos"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Dupattas & Shawls For Women",
+      "Alias": "Dupattas & Shawls",
+      "Categories": ["Dupatta", "Shawl"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Trousers & Capris For Women",
+      "Alias": "Trousers & Capris",
+      "Categories": ["Trousers", "Capris"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Shorts & Skirts For Women",
+      "Alias": "Shorts & Skirts",
+      "Categories": ["Shorts", "Skirts"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Sweaters & Sweatshirts For Women",
+      "Alias": "Sweaters & Sweatshirts",
+      "Categories": ["Sweaters", "Sweatshirts"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Jackets & Coats For Women",
+      "Alias": "Jackets & Coats",
+      "Categories": ["Jackets", "Coats"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Blazers & Waistcoats For Women",
+      "Alias": "Blazers & Waistcoats",
+      "Categories": ["Blazers", "Waistcoat"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Makeup For Women",
+      "Alias": "Makeup",
+      "Categories": ["Compact", "Concealer", "Eyeshadow", "Eyebrow Enhancer", "Foundation and Primer", "Hrghlighter and Blush", "Kajal and Eyeliner", "Lipstick", "Lip Care", "Lip Gloss", "Makeup Brushes", "Makeup Kit", "Makeup Remover", "Mascara", "Makeup Gift Set", "Beauty Gift Set", "BB and CC Cream"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Skin Care For Women",
+      "Alias": "Skin Care",
+      "Categories": ["Body Wash and Scrub", "Body Oil", "Body Lotion", "Body Wax and Essentials", "Face Wash and Cleanser", "Face Serum and Gel", "Face Moisturisers", "Face Scrub and Exfoliator", "Facial Kit", "Hand and Feet Cream", "Lip Care", "Mask and Peel", "Skin Care Gift Set", "Sunscreen", "Toner"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Premium Beauty For Women",
+      "Alias": "Premium Beauty",
+      "Categories": ["Body Wash and Scrub", "Body Oil", "Body Lotion", "Beauty Gift Set", "Bath and Body Gift Set", "BB and CC Cream", "Bath Soak Salt and Oil", "Concealer", "Compact", "Eyeshadow", "Eye Cream", "Eyebrow Enhancer", "Face Wash and Cleanser", "Face Serum and Gel", "Face Moisturisers", "Face Scrub and Exfoliator", "Facial Kit", "Foundation and Primer", "Fragrance Gift Set", "Hrghlighter and Blush", "Hair Oil", "Hair Colour", "Hair Serum", "Hair Cream and Mask", "Hair Care Kit", "Hand Wash and Sanitizer", "Hand and Feet Cream", "Kajal and Eyeliner", "Lipstick", "Lip Gloss", "Lip Care", "Mascara", "Makeup Remover", "Makeup Kit", "Makeup Gift Set", "Mask and Peel", "Perfume and Body Mist", "Shampoo and Conditioner", "Skin Care Gift Set", "Sunscreen", "Toner"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Sleepwear & Loungewear For Women",
+      "Alias": "Sleepwear & Loungewear",
+      "Categories": ["Lounge Shorts", "Lounge Tshirts", "Lounge Pants", "Night Suits", "Sleepsuit", "Nightdress"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Camisoles & Thermals For Women",
+      "Alias": "Camisoles & Thermals",
+      "Categories": ["Camisoles", "Thermal Tops", "Thermal Bottoms", "Thermal Set"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Swimwear For Women",
+      "Alias": "Swimwear",
+      "Categories": ["Swimwear", "Swim Bottoms", "Swim Tops", "Swimwear Accessories"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Sports Clothing For Womem",
+      "Alias": "Clothing",
+      "Categories": ["Bra", "Capris", "Co-Ords", "Dresses", "Jackets", "Jumpsuit", "Leggings", "Lounge Pants", "Lounge Tshirts", "Night Suits", "Shorts", "Sweatshirts", "Swimwear", "Socks", "Skirts", "Tights", "Tshirst", "Track Pants", "Tops", "Tracksuits", "Trousers"],
+      "Tags": ["Women", "Sports"]
+    },
+    {
+      "Name": "Sports Accessories For Women",
+      "Alias": "Sports Accessories",
+      "Categories": ["Backpacks", "Caps", "Duffel Bag", "Fitness Bands", "Gloves", "Headband", "Headphones", "Hat", "Sports Accessories", "Socks", "Wristbands", "Waist Pouch"],
+      "Tags": ["Women", "Sports"]
+    },
+    {
+      "Name": "Smart Wearables For Women",
+      "Alias": "Smart Wearables",
+      "Categories": ["Smart Watches", "Fitness Bands"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Fashion Jewellery For Women",
+      "Alias": "Fashion Jewellery",
+      "Categories": ["Anklet", "Bracelet", "Bangle", "Brooch", "Earrings", "Head Jewellery", "Jewellery Set", "Mangalsutra", "Necklace and Chains", "Nosepin", "Pendant", "Ring", "Saree Accessories"],
+      "Tags": ["Women"]
+    },
+    {
+      "Name": "Fine Jewellery For Women",
+      "Alias": "Fine Jewellery",
+      "Categories": ["Anklet", "Bracelet", "Bangle", "Brooch", "Earrings", "Head Jewellery", "Jewellery Set", "Mangalsutra", "Mask Chains", "Necklace and Chains", "Nosepin", "Pendant", "Ring", "Rakhi", "Saree Accessories", "Toe Rings"],
+      "Tags": ["Women"]
+    }
+  ],
+  "category_collection": [
+    {
+      "Name": "Men's Topwear",
+      "Alias": "Topwear",
+      "CategoryPairs": ["Blazers & Coats For Men"],
+      "collection_categories": [
+        {
+          "Name": "Tshirst",
+          "Alias": "T-Shirts",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Shirts",
+          "Alias": "Casual Shirts",
+          "Tags": ["Men", "Casual"]
+        },
+        {
+          "Name": "Shirts",
+          "Alias": "Formal Shirts",
+          "Tags": ["Men", "Formal"]
+        },
+        {
+          "Name": "Sweatshirts",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Sweaters",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Jackets",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Suits",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Rain Jacket",
+          "Tags": ["Men"]
+        }
+      ]
+    },
+    {
+      "Name": "Men's Indian & Festive Wear",
+      "Alias": "Indian & Festive Wear",
+      "CategoryPairs": ["Kurtas & Kurta Sets For Men"],
+      "collection_categories": [
+        {
+          "Name": "Sherwanis",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Nehru Jackets",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Dhotis",
+          "Tags": ["Men"]
+        }
+      ]
+    },
+    {
+      "Name": "Men's Bottomwear",
+      "Alias": "Bottomwear",
+      "CategoryPairs": ["Track Pants & Shorts For Men"],
+      "collection_categories": [
+        {
+          "Name": "Jeans",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Trousers",
+          "Alias": "Casual Trousers",
+          "Tags": ["Men", "Casual"]
+        },
+        {
+          "Name": "Trousers",
+          "Alias": "Formal Trousers",
+          "Tags": ["Men", "Formal"]
+        },
+        {
+          "Name": "Shorts",
+          "Tags": ["Men"]
+        }
+      ]
+    },
+    {
+      "Name": "Men's Innerwear & Sleepwear",
+      "Alias": "Innerwear & Sleepwear",
+      "CategoryPairs": ["Briefs & Trunks For Men", "Sleepwear & Loungewear For Men"],
+      "collection_categories": [
+        {
+          "Name": "Boxers",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Innerwear Vests",
+          "Alias": "Vests",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Thermal Set",
+          "Alias": "Thermals",
+          "Tags": ["Men"]
+        }
+      ]
+    },
+    {
+      "Name": "Men's Footwear",
+      "Alias": "Footwear",
+      "collection_categories": [
+        {
+          "Name": "Shoes",
+          "Alias": "Casual Shoes",
+          "Tags": ["Men", "Casual"]
+        },
+        {
+          "Name": "Shoes",
+          "Alias": "Sports Shoes",
+          "Tags": ["Men", "Sports"]
+        },
+        {
+          "Name": "Shoes",
+          "Alias": "Formal Shoes",
+          "Tags": ["Men", "Formal"]
+        },
+        {
+          "Name": "Sandals",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Flip Flops",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Socks",
+          "Tags": ["Men"]
+        }
+      ]
+    },
+    {
+      "Name": "Men's Sports & Active Wear",
+      "Alias": "Sports & Active Wear",
+      "CategoryPairs": ["Track Pants & Shorts For Men", "Jackets & Sweatshirts For Men", "Swimwear For Men", "Sports Accessories For Men"],
+      "collection_categories": [
+        {
+          "Name": "Shoes",
+          "Alias": "Sports Shoes",
+          "Tags": ["Men", "Sports"]
+        },
+        {
+          "Name": "Sandals",
+          "Alias": "Sports Sandals",
+          "Tags": ["Men", "Sports"]
+        },
+        {
+          "Name": "Tshirst",
+          "Alias": "Actvie T-Shirts",
+          "Tags": ["Men", "Sports"]
+        },
+        {
+          "Name": "Tracksuits",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Swimwear",
+          "Tags": ["Men"]
+        }
+      ]
+    },
+    {
+      "Name": "Men's Gadgets",
+      "Alias": "Gadgets",
+      "CategoryPairs": ["Smart Wearables For Men"],
+      "collection_categories": [
+        {
+          "Name": "Fitness Bands",
+          "Alias": "Fitness Gadgets",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Headphones",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Speakers",
+          "Tags": ["Men"]
+        }
+      ]
+    },
+    {
+      "Name": "Men's Fashion Accessories",
+      "Alias": "Fashion Accessories",
+      "CategoryPairs": ["Rings & Wristwear For Men", "Smart Wearables For Men", "Perfumes & Body Mists For Men", "Ties, Cufflinks & Pocket Squares For Men", "Caps & Hats For Men", "Mufflers, Scarves & Gloves For Men"],
+      "collection_categories": [
+        {
+          "Name": "Wallets",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Belts",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Perfume and Body Mist",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Trimmer",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Deodorant",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Accessory Gift Set",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Mobile Accessories",
+          "Alias": "Phone Case",
+          "Tags": ["Men"]
+        },
+        {
+          "Name": "Helmets",
+          "Tags": ["Men"]
+        }
+      ]
+    },
+    {
+      "Name": "Women's Indian & Fusion Wear",
+      "Alias": "Indian & Fusion Wear",
+      "CategoryPairs": ["Kurtas & Suits For Women", "Dupattas & Shawls For Women", "Skirts & Palazzos For Women", "Leggings, Salwars & Churidars For Women", "Kurtis, Tunics & Tops For Women"],
+      "collection_categories": [
+        {
+          "Name": "Sarees",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Ethnic Dresses",
+          "Alias": "Ethnic Wear",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Dress Materials",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Lehenga Choli",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Jackets",
+          "Tags": ["Women"]
+        }
+      ]
+    },
+    {
+      "Name": "Women's Western Wear",
+      "Alias": "Western Wear",
+      "CategoryPairs": ["Blazers & Waistcoats For Women", "Jackets & Coats For Women", "Sweaters & Sweatshirts For Women", "Shorts & Skirts For Women", "Trousers & Capris For Women"],
+      "collection_categories": [
+        {
+          "Name": "Dresses",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Tops",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Tshirst",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Jeans",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Co-Ords",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Jumpsuit",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Shrug",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Jackets",
+          "Tags": ["Women"]
+        }
+      ]
+    },
+    {
+      "Name": "Women's Footwear",
+      "Alias": "Footwear",
+      "CategoryPairs": [],
+      "collection_categories": [
+        {
+          "Name": "Flats",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Shoes",
+          "Alias": "Casual Shoes",
+          "Tags": ["Women", "Casual"]
+        },
+        {
+          "Name": "Heels",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Boots",
+          "Tags": ["Women"]
+        }
+      ]
+    },
+    {
+      "Name": "Women's Lingerie & Sleepwear",
+      "Alias": "Lingerie & Sleepwear",
+      "CategoryPairs": ["Camisoles & Thermals For Women", "Sleepwear & Loungewear For Women", "Swimwear For Women"],
+      "collection_categories": [
+        {
+          "Name": "Bra",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Briefs",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Shapewear",
+          "Tags": ["Women"]
+        }
+      ]
+    },
+    {
+      "Name": "Women's Sports & Active Wear",
+      "Alias": "Sports & Active Wear",
+      "CategoryPairs": ["Sports Clothing For Womem", "Sports Accessories For Women"],
+      "collection_categories": [
+        {
+          "Name": "Footware",
+          "Tags": ["Women", "Sports"]
+        },
+        {
+          "Name": "Sporting Goods",
+          "Alias": "Sports Equipment",
+          "Tags": ["Women", "Sports"]
+        }
+      ]
+    },
+    {
+      "Name": "Women's Beauty & Personal Care",
+      "Alias": "Beauty & Personal Care",
+      "CategoryPairs": ["Makeup For Women", "Skin Care For Women", "Premium Beauty For Women"],
+      "collection_categories": [
+        {
+          "Name": "Lipstick",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Perfume and Body Mist",
+          "Alias": "Fragrances",
+          "Tags": ["Women"]
+        }
+      ]
+    },
+    {
+      "Name": "Women's Gadgets",
+      "Alias": "Gadgets",
+      "CategoryPairs": ["Smart Wearables For Women"],
+      "collection_categories": [
+        {
+          "Name": "Fitness Bands",
+          "Alias": "Fitness Gadgets",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Headphones",
+          "Tags": ["Women"]
+        },
+        {
+          "Name": "Speakers",
+          "Tags": ["Women"]
+        }
+      ]
+    },
+    {
+      "Name": "Women's Jewellery",
+      "Alias": "Jewellery",
+      "CategoryPairs": ["Fashion Jewellery For Women", "Fine Jewellery For Women"],
+      "collection_categories": [
+        {
+          "Name": "Earrings",
+          "Tags": ["Women"]
+        }
+      ]
+    },
+    {
+      "Name": "Makeup",
+      "Alias": "Makeup",
+      "collection_categories": [
+        {
+          "Name": "Lipstick"
+        },
+        {
+          "Name": "Lip Gloss"
+        },
+        {
+          "Name": "Lip Liner"
+        },
+        {
+          "Name": "Mascara"
+        },
+        {
+          "Name": "Kajal and Eyeliner",
+          "Alias": "Kajal"
+        },
+        {
+          "Name": "Kajal and Eyeliner",
+          "Alias": "Eyeliner"
+        },
+        {
+          "Name": "Eyeshadow"
+        },
+        {
+          "Name": "Foundation and Primer",
+          "Alias": "Foundation"
+        },
+        {
+          "Name": "Foundation and Primer",
+          "Alias": "Primer"
+        },
+        {
+          "Name": "Concealer"
+        },
+        {
+          "Name": "Compact"
+        },
+        {
+          "Name": "Nail Polish"
+        }
+      ]
+    },
+    {
+      "Name": "Skincare, Bath & Body",
+      "Alias": "Skincare, Bath & Body",
+      "collection_categories": [
+        {
+          "Name": "Face Moisturisers"
+        },
+        {
+          "Name": "Face Wash and Cleanser",
+          "Alias": "Cleanser"
+        },
+        {
+          "Name": "Sunscreen"
+        },
+        {
+          "Name": "Face Serum and Gel",
+          "Alias": "Serum"
+        },
+        {
+          "Name": "Face Wash and Cleanser",
+          "Alias": "Face Wash"
+        },
+        {
+          "Name": "Eye Cream"
+        },
+        {
+          "Name": "Lip Care",
+          "Alias": "Lip Balm"
+        },
+        {
+          "Name": "Body Lotion"
+        },
+        {
+          "Name": "Body Wash and Scrub",
+          "Alias": "Body Wash"
+        },
+        {
+          "Name": "Body Wash and Scrub",
+          "Alias": "Scrub"
+        },
+        {
+          "Name": "Hand and Feet Cream",
+          "Alias": "Hand Cream"
+        }
+      ]
+    },
+    {
+      "Name": "Haircare",
+      "Alias": "Haircare",
+      "collection_categories": [
+        {
+          "Name": "Shampoo and Conditioner",
+          "Alias": "Shampoo"
+        },
+        {
+          "Name": "Shampoo and Conditioner",
+          "Alias": "Conditioner"
+        },
+        {
+          "Name": "Hair Cream and Mask",
+          "Alias": "Hair Cream"
+        },
+        {
+          "Name": "Hair Oil"
+        },
+        {
+          "Name": "Hair Gel and Spray",
+          "Alias": "Hair Gel"
+        },
+        {
+          "Name": "Hair Colour"
+        },
+        {
+          "Name": "Hair Serum"
+        },
+        {
+          "Name": "Hair Accessory"
+        }
+      ]
+    },
+    {
+      "Name": "Fragrances",
+      "Alias": "Fragrances",
+      "collection_categories": [
+        {
+          "Name": "Perfume and Body Mist",
+          "Alias": "Perfume"
+        },
+        {
+          "Name": "Deodorant"
+        },
+        {
+          "Name": "Perfume and Body Mist",
+          "Alias": "Body Mist"
+        }
+      ]
+    },
+    {
+      "Name": "Appliances",
+      "Alias": "Appliances",
+      "collection_categories": [
+        {
+          "Name": "Hair Appliance",
+          "Alias": "Hair Straighterner"
+        },
+        {
+          "Name": "Hair Appliance",
+          "Alias": "Hair Dryer"
+        },
+        {
+          "Name": "Hair Appliance",
+          "Alias": "Epilator"
+        }
+      ]
+    },
+    {
+      "Name": "Men's Grooming",
+      "Alias": "Men's Grooming",
+      "collection_categories": [
+        {
+          "Name": "Trimmer"
+        },
+        {
+          "Name": "Beard & Moustache Care",
+          "Alias": "Beard Oil"
+        },
+        {
+          "Name": "Hair Gel and Spray",
+          "Alias": "Hair Wax"
+        }
+      ]
+    },
+    {
+      "Name": "Beauty Gift & Makeup Set",
+      "Alias": "Beauty Gift & Makeup Set",
+      "collection_categories": [
+        {
+          "Name": "Beauty Gift Set",
+          "Alias": "Beauty Gift"
+        },
+        {
+          "Name": "Makeup Kit"
+        }
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "Name": "Men",
+      "Collections": [
+        "Men's Topwear",
+        "Men's Indian & Festive Wear",
+        "Men's Bottomwear",
+        "Men's Innerwear & Sleepwear",
+        "Men's Footwear",
+        "Men's Sports & Active Wear",
+        "Men's Gadgets",
+        "Men's Fashion Accessories"
+      ]
+    },
+    {
+      "Name": "Women",
+      "Collections": [
+        "Women's Indian & Fusion Wear",
+        "Women's Western Wear",
+        "Women's Footwear",
+        "Women's Lingerie & Sleepwear",
+        "Women's Sports & Active Wear",
+        "Women's Beauty & Personal Care",
+        "Women's Gadgets",
+        "Women's Jewellery"
+      ]
+    },
+    {
+      "Name": "Beauty",
+      "Collections": [
+        "Makeup",
+        "Skincare, Bath & Body",
+        "Haircare",
+        "Fragrances",
+        "Appliances",
+        "Men's Grooming",
+        "Beauty Gift & Makeup Set"
+      ]
+    }
+  ]
+}
+
